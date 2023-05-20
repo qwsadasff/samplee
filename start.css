@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+#myVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+.container{
+    position: relative;
+    /* border: 1px solid red; */
+    margin-top: 5%;
+}
+.logo img{  
+    position: relative;  
+    top: 50%;
+    left: 35%;
+    width: 25%;
+    height: auto;
+    
+}
+/* for btn group */
+.col-6 > .btn{
+    border-color: transparent;
+    background-image: linear-gradient(#b432c4,#40086b);
+    border-radius: 50px;
+    width: 180px;
+    max-width: 100%;
+    left: 30%;
+    position: relative;
+    margin-bottom: 4px;
+    font-family: 'Schoolbell', cursive;
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.col-6 > .btn:hover{
+    background-image: linear-gradient(#b2bf03,#f002e8);
+}
+.icon .fa-solid {
+    position: relative;
+    font-size: 30px;
+    left: 43%;
+    margin: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+.fa-solid:hover{
+    color: #f002e8;
+}
+
+

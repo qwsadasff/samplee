@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+ }
+#myVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+/* for logo */
+.imglog img{
+    position: relative;
+    left: 40%;
+    width: 18%;
+    height: auto;
+    margin-bottom: 15px;
+}
+.main{
+    position: relative;
+}
+/* for astrounout */
+.imghi img{
+    position: absolute;
+    left: 25%;
+    top: 150%;
+    width: 17%;
+    height: auto;
+}
+/* for bubble cloud */
+.imgcld img{
+    position: absolute;
+    left: 37%;
+    top: 75%;
+    width: 28%;
+    height: 100%;
+}
+/* for welcome txt */
+.imgcld h3{
+    position: absolute;
+    font-family: 'Schoolbell', cursive;
+    font-size: 2.6em;
+    font-weight: 800;
+    color: #000;
+    left: 43%;
+    top: 98%;
+    z-index: 1;
+}
+/* for welcome input name(__) */
+.imgcld h2{
+    position: absolute;
+    font-weight: 800;
+    color: #000;
+    left: 42%;
+    top: 125%;
+    z-index: 1;
+}
+
+.circlebck img{
+    filter: invert(100%);
+    -webkit-filter: invert(50%);
+    width: 100%;
+    height: 270px;
+    top: 15px;
+    float: none;
+}

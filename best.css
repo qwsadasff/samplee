@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+ }
+#myVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+  /* border */
+.card-front{
+    position: relative;
+    margin-top: 10%;
+    left: 30%;
+    border: 1px solid;
+    border-radius: 15px;
+    width: 500px;
+    max-width: 100%;
+    /* fix height */
+    height: 400px;
+    background-color: antiquewhite;
+    opacity: 0.8;
+    font-family: 'Schoolbell', cursive;
+    letter-spacing: 3px;
+}
+/* moon image */
+.imgmoon img{
+    position: absolute;
+    width: 35%;
+    height: auto;
+    top: -25%;
+    left: 33%;
+    transform: translate(0px);
+    animation: float 5s ease-out infinite;
+}
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+/* alluser text */
+.card-front h4{
+    margin-top: 10%;
+    font-size: px;
+    font-weight: 800;
+}
+
+/* for output of score box*/
+.list-group-item{
+    width: 60%;
+    height: 150px;
+    margin: 5px 0 10px 105px;
+}
+ul {
+    list-style-type: none;
+    text-shadow: #7b01d9;
+}
+ul > li{
+    font-size: 80px;
+}
+.btnn .btn{
+    background-image: linear-gradient(#9b73a0,#7b01d9);
+    opacity: 1;
+    color: white;
+    width: 20%;
+    border-radius: 50px;
+}
+.btn:hover{
+    background-image: linear-gradient(#b2bf03,#f002e8);
+}
+/* for hat image */
+.hat img{
+    position: relative;
+    width: 50%;
+    height: auto;
+    top: -171px;
+    left: 45%;
+}
+
+.cloud img {
+    margin: 3%;
+    position: relative;
+
+    top: -510px;
+    left: 68%;
+    width: 40%;
+    height: auto;
+}
+
+.text {
+    position: absolute;
+    top: 105px;
+    left: 110%;
+    color: white;
+    opacity: 1;
+}
